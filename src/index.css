@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  button{
+    @apply border border-black rounded-xl px-5 py-1
+  }
+}
+
+/* 
+.for_dark_theme{
+  --primary-color: #9a97f3;
+  --secondry-color: #818cab;
+  --font-color: #e1e1ff;
+  --bg-color: #161625;
+  --heading-color: #818cab;
+} */
